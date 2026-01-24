@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const address = document.getElementById('address').value;
         const phone = document.getElementById('phone').value;
 
-        const subject = `order for: ${selectedProduct}`;
+        const subject = `order for ${selectedProduct}`;
         const body = `
           Hello Mave's Neem Oil store,
 
