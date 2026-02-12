@@ -6,7 +6,7 @@ setTimeout(function(){
 // close popup when X is clicked
 document.querySelector(".close-btn").addEventListener("click",function(){
     document.getElementById("email-popup").style.display ="none";
-});
+})
 
 // close popup when clicking outside content
 document.getElementById("email-popup").addEventListener("click", function(e){
